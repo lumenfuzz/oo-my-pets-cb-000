@@ -10,6 +10,7 @@ class Owner
       :dogs => [],
       :cats => []
     }
+    @@all << self
   end
 
   def self.count
