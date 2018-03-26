@@ -20,6 +20,10 @@ class Owner
     @@all = []
   end
 
+  def self.all
+    return @@all
+  end
+
   def say_species
     return "I am a #{@species}."
   end
