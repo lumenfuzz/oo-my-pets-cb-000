@@ -14,7 +14,7 @@ class Owner
   end
 
   def self.count
-    return @@all
+    return @@all.size
   end
 
   def self.reset_all
