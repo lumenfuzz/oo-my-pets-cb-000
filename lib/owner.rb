@@ -8,7 +8,7 @@ class Owner
     @pets = {
       :fishes => [],
       :dogs => [],
-      :cats => [],
+      :cats => []
     }
   end
 
